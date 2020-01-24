@@ -33,13 +33,13 @@ if __name__ == '__main__':
     
     autoriconflitto = numpy.load('dataset1/autoriconflitto.npy')
     
-    numpy.save('dataset1/articoli',["articolo1" , "articolo2", "articolo3", "articolo4", "articolo5", "articolo6"])
+  
     articoli = numpy.load('dataset1/articoli.npy')
-    numpy.save('dataset1/autori',["a1", "a2", "a3", "a4", "a5", "a6", "a7", "a8", "a9"])
+   
     autori = numpy.load('dataset1/autori.npy')
-    numpy.save('dataset1/settori',["s1", "s2", "s3"])
+    
     settori = numpy.load('dataset1/settori.npy')
-    numpy.save('dataset1/revisori',["r1(a1)", "r2(a2)", "r3(a3)", "r4(a4)"])
+    
     revisori = numpy.load('dataset1/revisori.npy')
     """
 
